@@ -17,7 +17,7 @@ nav_order: 1
 <div class="about-section">
   <div class="about-text">
     <h2>ABOUT</h2>
-    <p></p>
+    
       <p>Hello 😃</p>
 
       I am a Ph.D. student in the Lifelike Avatar &amp; Agent Laboratory at KAIST, advised by Prof. Sung-Hee Lee. My research centers on digital garments — how different pieces of garments can be represented, matched, and manipulated. I am particularly interested in garment correspondence and robotic manipulation of deformable objects.
