@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle:
 
 profile:
   align: right
@@ -24,4 +24,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. student in the [Lifelike Avatar & Agent Laboratory](https://lava.kaist.ac.kr/) at KAIST, advised by Prof. Sung-Hee Lee. My research centers on digital garments — how different pieces of garments can be represented, matched, and manipulated. I am particularly interested in garment correspondence and robotic manipulation of deformable objects.
+I am a Ph.D. student in the [Lifelike Avatar & Agent Laboratory](https://lava.kaist.ac.kr/) at [KAIST], advised by Prof. Sung-Hee Lee. My research centers on digital garments — how different pieces of garments can be represented, matched, and manipulated. I am particularly interested in [garment correspondence] and [robotic manipulation] of deformable objects.
