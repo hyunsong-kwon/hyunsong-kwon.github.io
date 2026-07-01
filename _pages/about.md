@@ -24,4 +24,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. student in the Lifelike Avatar & Agent Laboratory at KAIST. I am interested in digital garments, with a focus on correspondence and robotic manipulation.
+I am a Ph.D. student in the [Lifelike Avatar & Agent Laboratory](https://lava.kaist.ac.kr/) at KAIST, advised by Prof. Sung-Hee Lee. My research centers on digital garments — how different pieces of garments can be represented, matched, and manipulated. I am particularly interested in garment correspondence and robotic manipulation of deformable objects.
