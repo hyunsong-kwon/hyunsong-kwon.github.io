@@ -43,6 +43,7 @@ nav_order: 1
   </div>
 </div>
 
+{% if site.news.size > 0 %}
 <div class="news-section">
   <h2>NEWS</h2>
   <div class="news-list">
@@ -55,4 +56,5 @@ nav_order: 1
     {% endfor %}
   </div>
 </div>
+{% endif %}
 
