@@ -107,24 +107,25 @@
   }
   
   .about-section {
-    display: flex;
-    flex-wrap: wrap;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap;
     gap: 2rem;
     align-items: flex-start;
   }
   
-  .about-text {
-    font-size: 1.15rem;  
-    line-height: 1.9;     
+
+  .about-text h2 {
+    font-weight: 900;
+    letter-spacing: 0.03em;
   }
   
   .about-photo {
-    width: 100%;
-    max-width: 320px;
-    height: 380px;
-    overflow: hidden;
-    border-radius: 8px;
+    order: 2;              // 항상 오른쪽에 오도록 명시
+    flex: 1 1 35%;
+    min-width: 240px;
   }
+  
   
   .about-photo img {
     width: 100% !important;
@@ -220,4 +221,21 @@
 
 .post-header:has(+ article .custom-hero) {
   display: none;
+}
+
+
+.contact-icons {
+  display: flex;
+  gap: 1.3rem;
+  margin-top: 1.5rem;
+}
+
+.contact-icons a {
+  color: var(--global-text-color);
+  font-size: 1.5rem;
+  transition: color 0.2s;
+}
+
+.contact-icons a:hover {
+  color: var(--global-theme-color);
 }
