@@ -215,4 +215,6 @@
   }
 }
 
-*:has(+ .custom-hero) { display: none; }
+.post-header:has(+ article .custom-hero) {
+  display: none;
+}
