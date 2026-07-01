@@ -87,7 +87,7 @@
   }
   
   .hero-name {
-    font-size: clamp(2.5rem, 6vw, 5rem);
+    font-size: clamp(2rem, 4vw, 3.2rem);
     font-weight: 900;
     letter-spacing: -0.02em;
     margin: 0.5rem 0;
@@ -212,3 +212,5 @@
     border-right: none;
   }
 }
+
+*:has(+ .custom-hero) { display: none; }
