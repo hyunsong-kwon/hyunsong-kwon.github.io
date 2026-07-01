@@ -9,7 +9,7 @@ nav_order: 1
 <div class="custom-hero">
   <p class="hero-eyebrow">RESEARCHER · DIGITAL GARMENTS</p>
   <h1 class="hero-name">HYUN-SONG KWON</h1>
-  <p class="hero-subtitle">Ph.D. Student  from KAIST.</p>
+  <p class="hero-subtitle">Ph.D. Student from KAIST. | Digital Garments · Graphics · Robotics</p>
 </div>
 
 <hr class="hero-divider" />
