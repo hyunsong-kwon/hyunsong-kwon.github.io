@@ -7,9 +7,9 @@ nav_order: 1
 ---
 
 <div class="custom-hero">
-  <p class="hero-eyebrow">Ph.D. Student from KAIST.</p>
+  <p class="hero-eyebrow">Ph.D. Student from KAIST</p>
   <h1 class="hero-name">HYUN-SONG KWON</h1>
-  <p class="hero-subtitle">Digital Garments | Graphics | Robotics</p>
+  <p class="hero-subtitle">Digital Garments   |   Graphics   |   Robotics</p>
 </div>
 
 <hr class="hero-divider" />
@@ -21,11 +21,11 @@ nav_order: 1
       <p>Hello 😃</p>
 
       I am a Ph.D. student in the Lifelike Avatar &amp; Agent Laboratory at KAIST, advised by Prof. Sung-Hee Lee. My research centers on digital garments — how different pieces of garments can be represented, matched, and manipulated. I am particularly interested in garment correspondence and robotic manipulation of deformable objects.
-    </p>
+    
 
   <div class="contact-icons">
     <a href="mailto:hyunsong.kwon@kaist.ac.kr" target="_blank" aria-label="Email">
-      <i class="fa-solid fa-envelope"></i>
+      <i class="fa-regular fa-envelope"></i>
     </a>
     <a href="https://www.linkedin.com/in/hyun-song-kwon-a60522268/" target="_blank" aria-label="LinkedIn">
       <i class="fa-brands fa-linkedin"></i>
