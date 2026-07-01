@@ -120,6 +120,11 @@
     align-items: flex-start;
   }
   
+  .about-text p {
+    font-size: 1.45rem;   // 기존 1.35rem에서 살짝 업
+    line-height: 1.9;
+    color: #000000;
+  }
 
   .about-text h2 {
     font-weight: 900 !important;
