@@ -33,7 +33,7 @@ nav_order: 1
       <i class="fa-brands fa-linkedin"></i>
     </a>
     <a href="https://scholar.google.com/citations?user=OLeN5IwAAAAJ&hl=en" target="_blank" aria-label="Google Scholar">
-      <i class="ai ai-google-scholar"></i>
+      <i class="ai ai-google-scholar-square"></i>
     </a>
   </div>
 
