@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:
+subtitle: Ph.D. Student | Digital Garments · Graphics · Robotics
 
 profile:
   align: right
