@@ -1,0 +1,69 @@
+// ============================================
+// 커스텀 테마 컬러 오버라이드
+// 기존 al-folio 기본 보라색(purple) → 블루 팔레트로 변경
+//
+// 팔레트
+//   #0082FB  Bright Blue   (호버/포인트)
+//   #0064E0  Blue          (메인 악센트)
+//   #F1F5F8  Light Grey    (카드/배경)
+//   #1C2B33  Dark Navy     (텍스트/푸터)
+//
+// 적용 방법:
+//   1) 이 파일을 저장소의 _sass/_themes.scss 위치에 둡니다.
+//      - 기존 파일이 있다면 통째로 교체하거나, 아래 :root 블록의
+//        --global-* 값만 복사해서 덮어써도 됩니다.
+//      - v1.x(gem 기반) 구조라면 _sass/_themes.scss 가 로컬에 없을 수
+//        있는데, 이 경우 이 파일을 새로 만들어 넣으면 gem 기본값을
+//        오버라이드합니다.
+//   2) 저장 후 Docker 리빌드: docker compose down && docker compose up
+// ============================================
+
+:root {
+    color-scheme: light;
+  
+    // 배경 & 텍스트
+    --global-bg-color: #ffffff;
+    --global-text-color: #1c2b33; // 기존 순검정 대신 진한 네이비 톤
+    --global-text-color-light: #5c6b73; // 보조/설명 텍스트
+    --global-card-bg-color: #f1f5f8; // 카드, 섹션 배경
+  
+    // 포인트(악센트) 컬러 — 여기가 핵심
+    --global-theme-color: #0064e0; // 링크, 강조 텍스트, 아이콘 등 메인 악센트
+    --global-hover-color: #0082fb; // 마우스오버 시 밝은 블루
+    --global-hover-text-color: #ffffff;
+    --global-highlight-color: #0082fb; // 저자명 하이라이트 등
+  
+    // 푸터
+    --global-footer-bg-color: #1c2b33;
+    --global-footer-text-color: #f1f5f8;
+    --global-footer-link-color: #ffffff;
+  
+    // 기타
+    --global-code-bg-color: #f1f5f8;
+    --global-distill-app-color: #5c6b73;
+    --global-divider-color: rgba(28, 43, 51, 0.1);
+    --global-back-to-top-bg-color: rgba(28, 43, 51, 0.4);
+  }
+  
+  // ── 다크모드 ──────────────────────────────────────
+  // 원본 파일에 다크모드 선택자가 있다면(예: [data-theme="dark"] 또는
+  // prefers-color-scheme 미디어쿼리) 반드시 실제 선택자명을 확인 후
+  // 아래 블록의 선택자를 맞춰주세요. 여기서는 일반적으로 쓰이는
+  // [data-theme="dark"] 기준으로 작성했습니다.
+  [data-theme="dark"] {
+    color-scheme: dark;
+  
+    --global-bg-color: #1c2b33;
+    --global-text-color: #f1f5f8;
+    --global-text-color-light: #9aa5ab;
+    --global-card-bg-color: #263640;
+  
+    --global-theme-color: #0082fb;
+    --global-hover-color: #0064e0;
+    --global-hover-text-color: #ffffff;
+    --global-highlight-color: #0082fb;
+  
+    --global-footer-bg-color: #10181d;
+    --global-footer-text-color: #f1f5f8;
+    --global-footer-link-color: #ffffff;
+  }
