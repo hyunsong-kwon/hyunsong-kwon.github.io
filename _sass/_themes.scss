@@ -249,3 +249,11 @@
 .contact-icons a:hover {
   color: var(--global-theme-color);
 }
+
+// "⌘K" 힌트 + 검색 아이콘 버튼 통째로 숨기기
+*:has(+ #search-toggle) {
+  display: none;
+}
+#search-toggle {
+  display: none;
+}
