@@ -66,6 +66,12 @@
     --global-footer-bg-color: #000000;
     --global-footer-text-color: #f1f5f8;
     --global-footer-link-color: #89cff0;
+
+    // 기타
+    --global-distill-app-color: #5c6b73;
+    --global-divider-color: #5c6b73;
+    --global-back-to-top-bg-color: #5c6b73;
+
   }
 
   footer {
@@ -116,8 +122,8 @@
   
 
   .about-text h2 {
-    font-weight: 900;
-    letter-spacing: 0.03em;
+    font-weight: 1300;
+    letter-spacing: 0.07em;
   }
   
   .about-photo {
