@@ -53,17 +53,17 @@
   [data-theme="dark"] {
     color-scheme: dark;
   
-    --global-bg-color: #1c2b33;
+    --global-bg-color: #000000;           // 진짜 블랙 배경
     --global-text-color: #f1f5f8;
     --global-text-color-light: #9aa5ab;
-    --global-card-bg-color: #263640;
+    --global-card-bg-color: #121212;      // 완전 블랙과 살짝 구분되는 카드 배경
   
-    --global-theme-color: #0082fb;
-    --global-hover-color: #0064e0;
-    --global-hover-text-color: #ffffff;
-    --global-highlight-color: #0082fb;
+    --global-theme-color: #89cff0;        // baby blue 악센트
+    --global-hover-color: #a9dfff;        // 살짝 더 밝은 baby blue (호버)
+    --global-hover-text-color: #1c2b33;   // 밝은 파랑 배경 위에 올라갈 땐 어두운 텍스트가 대비 좋음
+    --global-highlight-color: #89cff0;
   
-    --global-footer-bg-color: #10181d;
+    --global-footer-bg-color: #000000;
     --global-footer-text-color: #f1f5f8;
-    --global-footer-link-color: #ffffff;
+    --global-footer-link-color: #89cff0;
   }
