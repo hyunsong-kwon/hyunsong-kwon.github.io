@@ -72,4 +72,143 @@
     display: none;
   }
 
+  .custom-hero {
+    text-align: center;
+    padding: 4rem 1rem 3rem;
+  }
   
+  .hero-eyebrow {
+    color: var(--global-theme-color);
+    letter-spacing: 0.15em;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-name {
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    margin: 0.5rem 0;
+  }
+  
+  .hero-subtitle {
+    color: var(--global-text-color-light);
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .hero-divider {
+    border: none;
+    border-top: 1px solid var(--global-divider-color);
+    margin: 2rem 0 3rem;
+  }
+  
+  .about-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+  
+  .about-text {
+    flex: 1 1 55%;
+    min-width: 280px;
+  }
+  
+  .about-photo {
+    flex: 1 1 35%;
+    min-width: 240px;
+  }
+  
+  .about-photo img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .about-section {
+      flex-direction: column;
+    }
+  }
+  
+  .news-section,
+.links-section {
+  margin-top: 4rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.news-section h2,
+.links-section h2 {
+  font-size: 1.8rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  margin-bottom: 2rem;
+}
+
+.news-item {
+  display: flex;
+  gap: 2rem;
+  padding: 1.2rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.news-item:last-child {
+  border-bottom: none;
+}
+
+.news-date {
+  flex: 0 0 110px;
+  color: var(--global-text-color-light);
+  font-family: monospace;
+  font-size: 0.95rem;
+}
+
+.news-content p {
+  margin: 0;
+}
+
+.links-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid var(--global-divider-color);
+}
+
+.link-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 1.5rem;
+  border-bottom: 1px solid var(--global-divider-color);
+  border-right: 1px solid var(--global-divider-color);
+  color: var(--global-text-color);
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  transition: color 0.2s;
+}
+
+.link-item:nth-child(even) {
+  border-right: none;
+}
+
+.link-item:hover {
+  color: var(--global-theme-color);
+}
+
+.link-arrow,
+.link-item i {
+  color: var(--global-theme-color);
+}
+
+@media (max-width: 600px) {
+  .links-grid {
+    grid-template-columns: 1fr;
+  }
+  .link-item {
+    border-right: none;
+  }
+}
